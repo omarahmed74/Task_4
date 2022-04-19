@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+       height:2000px;
+       background-color: rgb(58, 58, 91);
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/hero-locations.jpg);
+    background-size: 100% 100%;
+}
+.home .nav{
+    overflow: auto;
+    background-color: rgb(58, 58, 91);
+}
+.home .nav ul{
+    list-style-type: none;
+}
+.home .nav ul{
+    margin: 10px;
+}
+
+.home .nav ul li{
+    float: right;
+    margin: 20px;
+    margin-top: 17px;
+}
+.home .nav ul li a{
+   text-decoration: none;
+    color:  black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.home .nav ul li a:hover{
+    color: white;
+}
+.home .nav ul .logo {
+    color: black;
+    float: left;
+    margin: 5px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home .nav ul .logo span{
+    color: gray;
+}   
+.start{
+    width: 100%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.start h1{
+    font-size: 60px;
+    margin: 20px;
+}
+.start p{
+    font-size: 20px;
+}
+
+.start button{
+    font-size: 18px;
+    margin: 40px;
+    background-color: white;
+    border: black;
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+.start button:hover{
+    color: blue;
+}
+
+
+
+
+
+.subject{
+    background-color: rgb(58, 58, 91);
+}
+
+ .item{
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 340px;
+}
+.source{
+    width: 30%;
+    color: black;
+    font-size: 20px;
+}
+.source P{
+    color:gray;
+    font: bold;
+   font-size: 15px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.source{
+    width: 30%;
+    color: black;
+    display: inline-block;
+    border: none;
+    list-style-type: none;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.source h1{
+    margin: 30px;
+    padding-top: 0px;
+}
+.source P{
+    color: white;    
+   font-size: smaller;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+.noun{
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+    padding: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.place{
+    display: flex;
+    margin-top:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.place .point{
+    padding: 10px;
+    border-top: none;
+    margin-right: 60px;
+    margin-left: 40px;
+    border: double 7px;
+}
+.place .point h1{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.place .point h5{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5px;
+}
+.place .point .first{
+    width: 300px;
+    height: 190px;
+}
+
+.place .point .siu{
+    width: 300px;
+    height: 190px;
+}
+
+.place .point .second{
+    width: 300px;
+    height: 190px;
+}
+
+
+.end{
+    display: flex;
+    color: white;
+    background: rgb(27, 27, 78);
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 60px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.end .ww{
+    width: 30%;
+    font-size: 35px;
+    justify-content: space-around;
+}
+.end .ww h1{
+    
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+.end .ww p{
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+
+
+
+@media(max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    .home .nav{
+        width: 100%;
+    }
+    .home .nav ul .logo{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 40px;
+     }           
+    .home .nav ul li a{
+         font-size: 5px;
+        
+     }
+     .start h1{
+         font-size: 20px;
+     }
+     .start p{
+         font-size: 15px;
+     }
+     .start button{
+         font-size: 10px;
+     }
+     .start button:hover{
+        color: rgb(58, 58, 91);
+    }
+     img{
+         width: 100%;
+         background-size: 100% 100%;
+         
+     }
+     .subject{
+        display: block;
+        width: 100%;
+     }
+    
+    .item{
+        width: 80%;
+      margin-left: 0px;
+      font-size: 20px;
+      margin: 2px;
+      padding-left: 5px;
+      
+    }
+    .source{
+        display:block;
+        font-size:10px;
+        width: 100%;
+    }
+    .source h1{
+        font-size: 17px;
+    }
+    .noun{
+        width: 80%;
+        margin-left: 0px;
+        font-size: 20px;
+        margin: 2px;
+        padding-left: 5px;
+
+    }
+    .place{
+        display: block;
+    }
+    .place .point{
+        width: 85%;
+        margin-left: 1px;
+    }
+    .end{
+        display: flex;
+        width: 70%;    
+        height: 20%;  
+        margin: 40px;
+    }
+    .end .ww h1{
+        width: 100%;
+        font-size: 15px;
+        
+    }
+    .end .ww p{
+        width: 100%;
+        font-size: 8px;
+        justify-content: space-between;
+    }
+}
+
+
+@media  (min-width:600px) and (max-width:950px){
+    body{
+        overflow-x: hidden;
+    }
+    
+    .home .nav ul .logo{
+        font-size: 10px;
+        float: left;
+     }         
+     .home .nav ul li a{
+       width: 100%;
+      display: flex;
+     }        
+
+     .home .nav ul li a{
+         font-size: 15px;
+     }
+     img{
+         width: 100%;
+    }
+    .source{
+        display:block;
+        font-size:10px;
+        width: 100%;
+    }
+    .source h1{
+        font-size: 17px;
+    }
+    .item{
+        width: 80%;
+      margin-left: 0px;
+      font-size: 20px;
+      margin: 30px;
+      padding-left: 17px;
+    }
+
+    .place{
+        display: block;
+    }
+    .place .point{
+        width: 80%;
+        margin-right: 7px;
+    }
+    .place .point .siu{
+        width: 100%;
+        height: 300px;
+    }
+    .place .point .first{
+        width: 100%;
+        height: 300px;
+    }
+    .place .point .second{
+        width: 100%;
+        height: 300px;
+    }
+
+    .end{
+        display: flex;
+        width: 70%;    
+        height: 20%;  
+        margin: 70px;
+    }
+    .end .ww h1{
+        width: 100%;
+        font-size: 15px;
+    }
+    .end .ww p{
+        width: 100%;
+        font-size: 8px;
+        justify-content: space-between;
+    }
+
+}
+
+   
